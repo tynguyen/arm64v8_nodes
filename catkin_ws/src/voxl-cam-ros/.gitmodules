@@ -1,0 +1,3 @@
+[submodule "voxl-cam-manager"]
+	path = voxl-cam-manager
+	url = https://gitlab.com/voxl-public/voxl-cam-manager.git

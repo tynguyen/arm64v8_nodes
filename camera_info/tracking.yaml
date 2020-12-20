@@ -1,0 +1,20 @@
+image_width: 640
+image_height: 480
+camera_name: tracking
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [280.786480, 0.000000, 319.833063, 0.000000, 280.873710, 218.206612, 0.000000, 0.000000, 1.000000]
+distortion_model: fisheye
+distortion_coefficients:
+  rows: 1
+  cols: 4
+  data: [-0.014408, 0.015723, -0.009189, 0.002135]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [290.976685, 0.000000, 322.074177, 0.000000, 0.000000, 289.385040, 211.706019, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000]

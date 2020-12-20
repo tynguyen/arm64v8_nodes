@@ -1,0 +1,3 @@
+std_msgs/Header header
+duration exposure_time
+time center_of_exposure

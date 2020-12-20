@@ -1,0 +1,17 @@
+#!/bin/sh
+
+################################################################################
+# Copyright (c) 2019 ModalAI, Inc. All rights reserved.
+#
+# author: james@modalai.com
+################################################################################
+
+set -e
+
+# place default camera info files in ros directory if missing
+mkdir -p /home/root/.ros/camera_info/
+cp --no-clobber /share/voxl-nodes/camera_info/*.yaml /home/root/.ros/camera_info/
+
+echo ""
+echo "Done installing voxl-nodes"
+echo ""

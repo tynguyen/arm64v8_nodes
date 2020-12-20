@@ -1,0 +1,8 @@
+Package: voxl-custom-nodes
+Version: 0.0.1
+Section: base
+Priority: optional
+Architecture: arm64v8
+#Depends:imu_app
+Maintainer: Ty Nguyen <tynguyen@seas.upenn.edu>
+Description: ROS nodes

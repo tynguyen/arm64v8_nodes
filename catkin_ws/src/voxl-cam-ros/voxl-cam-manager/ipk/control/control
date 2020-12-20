@@ -1,0 +1,8 @@
+Package: voxl-cam-manager
+Version: 0.2.0
+Section: base
+Priority: optional
+Architecture: aarch64
+Depends:
+Maintainer: modalai.com
+Description: Abstraction for VOXL camera applications
