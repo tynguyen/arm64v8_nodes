@@ -1,0 +1,8 @@
+image_common/image_transport
+/home/root/emulator_ws/devel/.private/image_transport/lib/libimage_transport.so /home/root/emulator_ws/devel/lib/libimage_transport.so
+/home/root/emulator_ws/devel/.private/image_transport/lib/libimage_transport_plugins.so /home/root/emulator_ws/devel/lib/libimage_transport_plugins.so
+/home/root/emulator_ws/devel/.private/image_transport/lib/pkgconfig/image_transport.pc /home/root/emulator_ws/devel/lib/pkgconfig/image_transport.pc
+/home/root/emulator_ws/devel/.private/image_transport/lib/image_transport/list_transports /home/root/emulator_ws/devel/lib/image_transport/list_transports
+/home/root/emulator_ws/devel/.private/image_transport/lib/image_transport/republish /home/root/emulator_ws/devel/lib/image_transport/republish
+/home/root/emulator_ws/devel/.private/image_transport/share/image_transport/cmake/image_transportConfig-version.cmake /home/root/emulator_ws/devel/share/image_transport/cmake/image_transportConfig-version.cmake
+/home/root/emulator_ws/devel/.private/image_transport/share/image_transport/cmake/image_transportConfig.cmake /home/root/emulator_ws/devel/share/image_transport/cmake/image_transportConfig.cmake

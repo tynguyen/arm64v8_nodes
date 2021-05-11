@@ -1,0 +1,147 @@
+CMake Warning (dev) at /opt/ros/indigo/share/geometry_msgs/cmake/geometry_msgsConfig.cmake:99 (if):
+  Policy CMP0054 is not set: Only interpret if() arguments as variables or
+  keywords when unquoted.  Run "cmake --help-policy CMP0054" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  Quoted variables like "include" will no longer be dereferenced when the
+  policy is set to NEW.  Since the policy is not set the OLD behavior will be
+  used.
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/indigo/share/sensor_msgs/cmake/sensor_msgsConfig.cmake:169 (find_package)
+  /opt/ros/indigo/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  CMakeLists.txt:4 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /opt/ros/indigo/share/cpp_common/cmake/cpp_commonConfig.cmake:99 (if):
+  Policy CMP0054 is not set: Only interpret if() arguments as variables or
+  keywords when unquoted.  Run "cmake --help-policy CMP0054" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  Quoted variables like "include" will no longer be dereferenced when the
+  policy is set to NEW.  Since the policy is not set the OLD behavior will be
+  used.
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/indigo/share/message_runtime/cmake/message_runtimeConfig.cmake:169 (find_package)
+  /opt/ros/indigo/share/geometry_msgs/cmake/geometry_msgsConfig.cmake:169 (find_package)
+  /opt/ros/indigo/share/sensor_msgs/cmake/sensor_msgsConfig.cmake:169 (find_package)
+  /opt/ros/indigo/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  CMakeLists.txt:4 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+[33m[1mCMake Warning[0m at /opt/ros/indigo/share/cpp_common/cmake/cpp_commonConfig.cmake:111 (message):
+  Project 'cpp_common' specifies 'NOTFOUND/usr/include' as an include dir,
+  which is not found.  It does neither exist as an absolute directory nor in
+  '/opt/ros/indigo/NOTFOUND/usr/include'.  Ask the maintainer 'Dirk Thomas
+  <dthomas@@osrfoundation.org>' to fix it.
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/indigo/share/message_runtime/cmake/message_runtimeConfig.cmake:169 (find_package)
+  /opt/ros/indigo/share/geometry_msgs/cmake/geometry_msgsConfig.cmake:169 (find_package)
+  /opt/ros/indigo/share/sensor_msgs/cmake/sensor_msgsConfig.cmake:169 (find_package)
+  /opt/ros/indigo/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  CMakeLists.txt:4 (find_package)
+
+
+CMake Warning (dev) at /opt/ros/indigo/share/roscpp_serialization/cmake/roscpp_serializationConfig.cmake:99 (if):
+  Policy CMP0054 is not set: Only interpret if() arguments as variables or
+  keywords when unquoted.  Run "cmake --help-policy CMP0054" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  Quoted variables like "include" will no longer be dereferenced when the
+  policy is set to NEW.  Since the policy is not set the OLD behavior will be
+  used.
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/indigo/share/message_runtime/cmake/message_runtimeConfig.cmake:169 (find_package)
+  /opt/ros/indigo/share/geometry_msgs/cmake/geometry_msgsConfig.cmake:169 (find_package)
+  /opt/ros/indigo/share/sensor_msgs/cmake/sensor_msgsConfig.cmake:169 (find_package)
+  /opt/ros/indigo/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  CMakeLists.txt:4 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /opt/ros/indigo/share/roscpp_traits/cmake/roscpp_traitsConfig.cmake:99 (if):
+  Policy CMP0054 is not set: Only interpret if() arguments as variables or
+  keywords when unquoted.  Run "cmake --help-policy CMP0054" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  Quoted variables like "include" will no longer be dereferenced when the
+  policy is set to NEW.  Since the policy is not set the OLD behavior will be
+  used.
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/indigo/share/roscpp_serialization/cmake/roscpp_serializationConfig.cmake:169 (find_package)
+  /opt/ros/indigo/share/message_runtime/cmake/message_runtimeConfig.cmake:169 (find_package)
+  /opt/ros/indigo/share/geometry_msgs/cmake/geometry_msgsConfig.cmake:169 (find_package)
+  /opt/ros/indigo/share/sensor_msgs/cmake/sensor_msgsConfig.cmake:169 (find_package)
+  /opt/ros/indigo/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  CMakeLists.txt:4 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /opt/ros/indigo/share/rostime/cmake/rostimeConfig.cmake:99 (if):
+  Policy CMP0054 is not set: Only interpret if() arguments as variables or
+  keywords when unquoted.  Run "cmake --help-policy CMP0054" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  Quoted variables like "include" will no longer be dereferenced when the
+  policy is set to NEW.  Since the policy is not set the OLD behavior will be
+  used.
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/indigo/share/roscpp_traits/cmake/roscpp_traitsConfig.cmake:169 (find_package)
+  /opt/ros/indigo/share/roscpp_serialization/cmake/roscpp_serializationConfig.cmake:169 (find_package)
+  /opt/ros/indigo/share/message_runtime/cmake/message_runtimeConfig.cmake:169 (find_package)
+  /opt/ros/indigo/share/geometry_msgs/cmake/geometry_msgsConfig.cmake:169 (find_package)
+  /opt/ros/indigo/share/sensor_msgs/cmake/sensor_msgsConfig.cmake:169 (find_package)
+  /opt/ros/indigo/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  CMakeLists.txt:4 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+[33m[1mCMake Warning[0m at /opt/ros/indigo/share/rostime/cmake/rostimeConfig.cmake:111 (message):
+  Project 'rostime' specifies 'NOTFOUND/usr/include' as an include dir, which
+  is not found.  It does neither exist as an absolute directory nor in
+  '/opt/ros/indigo/NOTFOUND/usr/include'.  Ask the maintainer 'Dirk Thomas
+  <dthomas@@osrfoundation.org>' to fix it.
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/indigo/share/roscpp_traits/cmake/roscpp_traitsConfig.cmake:169 (find_package)
+  /opt/ros/indigo/share/roscpp_serialization/cmake/roscpp_serializationConfig.cmake:169 (find_package)
+  /opt/ros/indigo/share/message_runtime/cmake/message_runtimeConfig.cmake:169 (find_package)
+  /opt/ros/indigo/share/geometry_msgs/cmake/geometry_msgsConfig.cmake:169 (find_package)
+  /opt/ros/indigo/share/sensor_msgs/cmake/sensor_msgsConfig.cmake:169 (find_package)
+  /opt/ros/indigo/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  CMakeLists.txt:4 (find_package)
+
+
+CMake Warning (dev) at /opt/ros/indigo/share/std_msgs/cmake/std_msgsConfig.cmake:99 (if):
+  Policy CMP0054 is not set: Only interpret if() arguments as variables or
+  keywords when unquoted.  Run "cmake --help-policy CMP0054" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  Quoted variables like "include" will no longer be dereferenced when the
+  policy is set to NEW.  Since the policy is not set the OLD behavior will be
+  used.
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/indigo/share/geometry_msgs/cmake/geometry_msgsConfig.cmake:169 (find_package)
+  /opt/ros/indigo/share/sensor_msgs/cmake/sensor_msgsConfig.cmake:169 (find_package)
+  /opt/ros/indigo/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  CMakeLists.txt:4 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+[31m[1mCMake Error[0m at /home/root/emulator_ws/src/vision_opencv/image_geometry/CMakeLists.txt:5 (find_package):
+  By not providing "FindOpenCV.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "OpenCV", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "OpenCV" with any
+  of the following names:
+
+    OpenCVConfig.cmake
+    opencv-config.cmake
+
+  Add the installation prefix of "OpenCV" to CMAKE_PREFIX_PATH or set
+  "OpenCV_DIR" to a directory containing one of the above files.  If "OpenCV"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+

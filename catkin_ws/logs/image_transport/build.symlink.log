@@ -1,0 +1,7 @@
+Symlinking /home/root/emulator_ws/devel/lib/libimage_transport.so
+Symlinking /home/root/emulator_ws/devel/lib/libimage_transport_plugins.so
+Symlinking /home/root/emulator_ws/devel/lib/pkgconfig/image_transport.pc
+Symlinking /home/root/emulator_ws/devel/lib/image_transport/list_transports
+Symlinking /home/root/emulator_ws/devel/lib/image_transport/republish
+Symlinking /home/root/emulator_ws/devel/share/image_transport/cmake/image_transportConfig-version.cmake
+Symlinking /home/root/emulator_ws/devel/share/image_transport/cmake/image_transportConfig.cmake
