@@ -1,0 +1,3 @@
+[submodule "catkin_ws/src/voxl_obj_detection"]
+	path = catkin_ws/src/voxl_obj_detection
+	url = https://github.com/tynguyen/voxl_obj_detection.git

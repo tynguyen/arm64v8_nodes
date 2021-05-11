@@ -22,10 +22,21 @@ Each node is a submodule, and some have their own own submodules too. Clone the 
 ```
 
 3) Launch the voxl-emulator docker image and build the project.
-
+If using the official instruction to build the voxl-emulator, then,
 ```bash
 ~/git/voxl-nodes$ voxl-docker -i voxl-emulator
 bash-4.3$ ./build.sh
+```
+In here, we will use our own way to run the voxl-emulator (even though the image is the same), therefore, first clone 
+[this repo](https://github.com/tynguyen/arm64v8_ubuntu_emulators) and then run 
+```
+cd arm64v8_ubuntu_emulators
+bash create_official_docker_emulator_container.sh 
+```
+If the docker container has been created, run the following commands (on the host machine) instead, 
+```
+docker start <docker_container_name>
+docker exec -it <docker_cotainer_name> bash
 ```
 
 4) Make an ipk package either inside or outside of docker.
