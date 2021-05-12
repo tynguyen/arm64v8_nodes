@@ -72,3 +72,19 @@ Configuring voxl-nodes.
 Done installing voxl-nodes
 ```
 
+---
+## Notes
+When developing on the VOXL Emulator or on target, it may be necessary uninstall OpenCV 2.4 first. These are the commands to remove the old OpenCV 2.4:
+```
+opkg remove lib32-opencv --force-removal-of-dependent-packages
+opkg remove lib32-libopencv --force-removal-of-dependent-packages
+opkg remove lib32-libopencv-core2.4 --force-removal-of-dependent-packages
+opkg remove lib32-opencv-dbg --force-removal-of-dependent-packages
+```
+
+The following needs to varify:
+In order to build a note with opencv after installing opencv using an opkg file, make sure to include the following line into CMakeLists.txt
+```
+find_package(OpenCV REQUIRED PATHS /usr/lib64/cmake/opencv4)                                                                              
+```
+
