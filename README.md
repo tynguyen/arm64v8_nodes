@@ -1,6 +1,8 @@
 # voxl-nodes
 
-This repository generates an ipk package for ROS nodes for the VOXL platform.
+This repository generates an ipk package for ROS nodes for the VOXL platform, using ROS Melodic.
+Note that the packages generated using the bionic-melodic docker as shown below will only work on a ROS-melodic docker on VOXL board.
+To make packages runable directly on VOXL board, use the official emulator (ROS indigo, opencv2.4). 
 
 ## Procedure
 For convenience, we create and edit a new node on the host machine that shares the catkin_ws repo with a VOXL emulator. After that, we can either share the catkin_ws/install repo on the host machine with the VOXL board or use the below instruction to generate an ipk package and then copy over, install on the VOXL board. 
@@ -62,6 +64,7 @@ This will make a new voxl-nodes_x.x.x.ipk file in your working directory. The na
 
 You can now push the ipk package to the VOXL and install with opkg however you like. To do this over ADB, you may use the included helper script: install_on_voxl.sh. Do this outside of docker as your docker image probably doesn't have usb permissions for ADB.
 
+Note that this only work with packages created inside the official emulator (ROS indigo). For ROS melodic packages, use other method.
 
 ```bash
 ~/git/voxl-vision-px4$ ./install_on_voxl.sh
