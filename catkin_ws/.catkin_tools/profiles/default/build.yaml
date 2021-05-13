@@ -7,7 +7,7 @@ devel_layout: linked
 devel_space: devel
 extend_path: null
 extends: null
-install: false
+install: true
 install_space: install
 isolate_install: false
 jobs_args: []
